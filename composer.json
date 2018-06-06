@@ -1,0 +1,26 @@
+{
+    "name": "pluritech-total-voice/total-voice-php",
+    "description": "This package has the aim of send SMS with Total Voice Api.",
+    "keywords": ["SMS", "php", "pluritech", "Total Voice"],
+    "homepage": "https://github.com/nathygmachado/pluritech-total-voice-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Augusto Silva Valentim",
+            "email": "valentim.guilherme@gmail.com",
+            "homepage": "https://www.pluritech.com.br"
+        },
+        {
+            "name": "Natália Gonçalves Machado",
+            "email": "nataliagoncalvesmachado@gmail.com",
+            "homepage": "https://www.pluritech.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"TotalVoicePhp\\": "src/TotalVoicePhp"}
+    }
+}
